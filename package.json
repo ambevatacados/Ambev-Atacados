@@ -1,7 +1,7 @@
 {
-  "name": "gestor-clientes-ambev",
+  "name": "gestor-clientes-central-atacados",
   "version": "3.0.0",
-  "description": "Gestor de clientes e pedidos Ambev Brasil com fluxo automático de 5 emails (Resend)",
+  "description": "Gestor de clientes e pedidos Central de Atacados com fluxo automático de 5 emails (Resend)",
   "main": "api/index.js",
   "scripts": {
     "start": "node server.js",
