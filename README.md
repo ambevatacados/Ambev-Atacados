@@ -1,4 +1,4 @@
-# 🍺 Ambev S.A — Gestor de Pedidos
+# 🥤 Central de Atacados — Gestor de Pedidos
 
 Painel de clientes e pedidos com fluxo automático de **5 emails** (via [Resend](https://resend.com)):
 
@@ -27,7 +27,7 @@ npm start              # http://localhost:3000
    - `REPLY_TO` — opcional, caixa real para respostas dos clientes (ex.: seu Gmail)
    - `COMPANY_NAME` / `CONTACT_EMAIL` — opcionais, exibidos no rodapé dos emails
    - `WHATSAPP_NUMBER` — número (com DDI, só dígitos) para onde os botões "Confirmar pagamento" / "Já pagou?" levam, com mensagem pronta
-   - `BASE_URL` — URL pública do site; o logotipo dos emails é carregado de `BASE_URL/brand/logo-light.png`
+   - `BASE_URL` — URL pública do site
    - `PAYMENT_DEADLINE_MINUTES` — opcional, padrão `20`
 3. Deploy. O painel abre na raiz do site.
 
@@ -42,7 +42,7 @@ npm start              # http://localhost:3000
 api/index.js        → API Express (Serverless Function na Vercel)
 lib/email.js        → envio dos 5 emails via Resend
 lib/templates.js    → templates HTML (tabelas, compatíveis com Gmail/Outlook)
-public/brand/       → logotipo Ambev S.A (PNG) usado nos emails e no painel
+public/brand/       → logotipo Central de Atacados (SVG) usado no painel
 public/index.html   → painel (dados salvos no navegador — localStorage)
 server.js           → servidor local
 ```
