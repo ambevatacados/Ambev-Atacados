@@ -1,4 +1,4 @@
-// API — Gestor de Clientes Ambev Brasil
+// API — Gestor de Clientes Central de Atacados
 // Roda como Serverless Function na Vercel (api/index.js) e também localmente (server.js).
 
 const express = require("express");
